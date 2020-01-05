@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="lib" path="gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="D:/recommender/Recommender-Systems---Coursera/Course1/Week2-Non-Personalized-Recommender-Lenskit/nonpers-assignment/jar_files/annotations-2.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/recommender/Recommender-Systems---Coursera/Course1/Week2-Non-Personalized-Recommender-Lenskit/nonpers-assignment/jar_files/commons-lang3-3.3.jar"/>
+	<classpathentry kind="lib" path="D:/recommender/Recommender-Systems---Coursera/Course1/Week2-Non-Personalized-Recommender-Lenskit/nonpers-assignment/jar_files/guava-18.0.jar"/>
+	<classpathentry kind="lib" path="D:/recommender/Recommender-Systems---Coursera/Course1/Week2-Non-Personalized-Recommender-Lenskit/nonpers-assignment/jar_files/jackson-annotations-2.5.0.jar"/>
+	<classpathentry kind="lib" path="D:/recommender/Recommender-Systems---Coursera/Course1/Week2-Non-Personalized-Recommender-Lenskit/nonpers-assignment/jar_files/jackson-core-2.5.4.jar"/>
+	<classpathentry kind="lib" path="D:/recommender/Recommender-Systems---Coursera/Course1/Week2-Non-Personalized-Recommender-Lenskit/nonpers-assignment/jar_files/jackson-databind-2.5.4.jar"/>
+	<classpathentry kind="lib" path="D:/recommender/Recommender-Systems---Coursera/Course1/Week2-Non-Personalized-Recommender-Lenskit/nonpers-assignment/jar_files/lenskit-specs-3.0-T5.jar"/>
+	<classpathentry kind="lib" path="D:/recommender/Recommender-Systems---Coursera/Course1/Week2-Non-Personalized-Recommender-Lenskit/nonpers-assignment/jar_files/slf4j-api-1.7.12.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
