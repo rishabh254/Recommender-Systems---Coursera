@@ -1,0 +1,44 @@
+23:48:11.954 INFO [main] org.lenskit.cli.Main: Starting LensKit 3.0-M1 on Java 1.8.0_102 from Oracle Corporation
+23:48:12.001 DEBUG [main] org.lenskit.LenskitInfo: have 5573 active revisions
+23:48:12.014 DEBUG [main] org.lenskit.cli.Main: Built from Git revision c0210fa3281ef8b15b0959bcd5fced43c5fec38a
+23:48:12.014 DEBUG [main] org.lenskit.cli.Main: Using VM 'Java HotSpot(TM) 64-Bit Server VM' version 25.102-b14 from Oracle Corporation
+23:48:12.014 INFO [main] org.lenskit.cli.Main: Have 4 processors and heap limit of 1694 MiB
+23:48:12.050 INFO [main] org.lenskit.cli.util.RecommenderLoader: creating fresh recommender
+23:48:12.441 INFO [main] org.lenskit.config.ConfigurationLoader: loading script from file:/D:/recommender/Recommender-Systems---Coursera/Course2/Week4-Item-Item-CF-Programming/ii-assignment/etc/item-item.groovy
+23:48:13.119 DEBUG [main] org.lenskit.data.dao.file.TextEntitySource: loading source ratings with base URI file:/D:/recommender/Recommender-Systems---Coursera/Course2/Week4-Item-Item-CF-Programming/ii-assignment/data/movielens.yml
+23:48:13.119 DEBUG [main] org.lenskit.data.dao.file.TextEntitySource: resolved file URI: file:/D:/recommender/Recommender-Systems---Coursera/Course2/Week4-Item-Item-CF-Programming/ii-assignment/data/ratings.csv
+23:48:13.134 INFO [main] org.lenskit.data.dao.file.TextEntitySource: loading text file source ratings to read from file:/D:/recommender/Recommender-Systems---Coursera/Course2/Week4-Item-Item-CF-Programming/ii-assignment/data/ratings.csv
+23:48:13.142 DEBUG [main] org.lenskit.data.dao.file.TextEntitySource: ratings: using delimiter ,
+23:48:13.142 DEBUG [main] org.lenskit.data.dao.file.TextEntitySource: ratings: reading header
+23:48:13.142 DEBUG [main] org.lenskit.data.dao.file.TextEntitySource: ratings: reading entities of type EntityType[rating]
+23:48:13.200 DEBUG [main] org.lenskit.data.dao.file.TextEntitySource: class org.lenskit.data.ratings.RatingBuilder: using entity builder {}
+23:48:13.200 DEBUG [main] org.lenskit.data.dao.file.TextEntitySource: loading source movies with base URI file:/D:/recommender/Recommender-Systems---Coursera/Course2/Week4-Item-Item-CF-Programming/ii-assignment/data/movielens.yml
+23:48:13.200 DEBUG [main] org.lenskit.data.dao.file.TextEntitySource: resolved file URI: file:/D:/recommender/Recommender-Systems---Coursera/Course2/Week4-Item-Item-CF-Programming/ii-assignment/data/movies.csv
+23:48:13.200 INFO [main] org.lenskit.data.dao.file.TextEntitySource: loading text file source movies to read from file:/D:/recommender/Recommender-Systems---Coursera/Course2/Week4-Item-Item-CF-Programming/ii-assignment/data/movies.csv
+23:48:13.201 DEBUG [main] org.lenskit.data.dao.file.TextEntitySource: movies: using delimiter ,
+23:48:13.201 DEBUG [main] org.lenskit.data.dao.file.TextEntitySource: movies: reading header
+23:48:13.201 DEBUG [main] org.lenskit.data.dao.file.TextEntitySource: movies: reading entities of type EntityType[item]
+23:48:13.201 DEBUG [main] org.lenskit.data.dao.file.TextEntitySource: class org.lenskit.data.entities.BasicEntityBuilder: using entity builder {}
+23:48:13.201 DEBUG [main] org.lenskit.data.dao.file.TextEntitySource: loading source tags with base URI file:/D:/recommender/Recommender-Systems---Coursera/Course2/Week4-Item-Item-CF-Programming/ii-assignment/data/movielens.yml
+23:48:13.201 DEBUG [main] org.lenskit.data.dao.file.TextEntitySource: resolved file URI: file:/D:/recommender/Recommender-Systems---Coursera/Course2/Week4-Item-Item-CF-Programming/ii-assignment/data/tags.csv
+23:48:13.202 INFO [main] org.lenskit.data.dao.file.TextEntitySource: loading text file source tags to read from file:/D:/recommender/Recommender-Systems---Coursera/Course2/Week4-Item-Item-CF-Programming/ii-assignment/data/tags.csv
+23:48:13.202 DEBUG [main] org.lenskit.data.dao.file.TextEntitySource: tags: using delimiter ,
+23:48:13.202 DEBUG [main] org.lenskit.data.dao.file.TextEntitySource: tags: reading header
+23:48:13.203 DEBUG [main] org.lenskit.data.dao.file.TextEntitySource: tags: reading entities of type EntityType[item-tag]
+23:48:13.204 DEBUG [main] org.lenskit.data.dao.file.TextEntitySource: class org.lenskit.data.entities.BasicEntityBuilder: using entity builder {}
+23:48:13.212 DEBUG [main] org.lenskit.LenskitRecommenderEngineBuilder: building graph from 3 configurations
+23:48:13.310 DEBUG [main] org.lenskit.inject.RecommenderInstantiator: replacing nodes in graph with 13 nodes
+23:48:13.321 DEBUG [main] org.lenskit.inject.RecommenderInstantiator: found 2 shared nodes
+23:48:14.605 INFO [main] org.lenskit.data.dao.file.StaticDataSource: deriving entity type EntityType[user] from EntityType[rating] (column TypedName[user: long])
+23:48:14.764 INFO [main] org.lenskit.data.dao.file.StaticDataSource: deriving entity type EntityType[item] from EntityType[rating] (column TypedName[item: long])
+23:48:14.795 DEBUG [main] org.lenskit.data.entities.EntityCollectionBuilder: built collection of 2500 entities with type EntityType[item] and 2 indexes
+23:48:14.826 DEBUG [main] org.lenskit.data.entities.EntityCollectionBuilder: built collection of 264505 entities with type EntityType[rating] and 2 indexes
+23:48:14.846 DEBUG [main] org.lenskit.data.entities.EntityCollectionBuilder: built collection of 94875 entities with type EntityType[item-tag] and 2 indexes
+23:48:14.847 DEBUG [main] org.lenskit.data.entities.EntityCollectionBuilder: built collection of 862 entities with type EntityType[user] and 2 indexes
+23:48:54.983 DEBUG [main] org.lenskit.inject.RecommenderInstantiator: final graph has 13 nodes
+23:48:54.986 INFO [main] org.lenskit.cli.util.RecommenderLoader: built recommender in 41.77 s
+23:48:55.004 INFO [main] org.lenskit.cli.commands.Recommend: recommending for 1 users
+23:48:55.048 DEBUG [main] org.lenskit.basic.TopNItemRecommender: computing effective candidates for user 320 from 2500 candidates and 62 excluded items
+23:48:55.058 DEBUG [main] org.lenskit.basic.TopNItemRecommender: Computing 10 recommendations for user 320 from 2438 candidates
+23:48:55.591 INFO [main] org.lenskit.cli.commands.Recommend: recommended for 1 users in 586.1 ms
+23:48:55.592 INFO [main] org.lenskit.cli.Main: If you use LensKit in published research, please see http://lenskit.org/research/
